@@ -3617,7 +3617,6 @@ def create_app() -> FastAPI:
         logger.info("🛠️ Criando/verificando tabelas do banco de dados...")
         usuario_repo.criar_tabela()
         configuracao_repo.criar_tabela()
-        tarefa_repo.criar_tabela()
         chamado_repo.criar_tabela()
         chamado_interacao_repo.criar_tabela()
         chat_sala_repo.criar_tabela()
